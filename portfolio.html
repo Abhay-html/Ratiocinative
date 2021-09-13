@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://kit.fontawesome.com/0e3e6d16f9.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+  <title>Portfolio</title>
+</head>
+
+<body style="max-width: 1920px; margin: 0 auto;">
+
+<div class="portfolio-banner" id="modal-toggle">
+  <nav id="portfolio-nav" class="nav">
+    <div class="logo">
+      <a class="logo-img" href="index.html"><img src="img/ratio-logo copy.png" alt="site-logo"></a>
+    </div>
+    <div class="toggle">
+      <i id="portfolio-menu-hamburger" class="fa fa-bars menu-toggle" aria-hidden="true" onclick="myFunction4()"></i>
+      <i id="portfolio-menu-cross" class="fas fa-times fa-2x menu-cross-toggle" onclick="myFunction5()" ></i>
+    </div>
+    <div id="mainListDiv" class="main_list">
+      <ul class="menu-ul">
+        <li class="menu-li portfolio-menu-li"><a class="menu-a" href="index.html#services">SERVICES</a></li>
+        <li class="menu-li portfolio-menu-li"><a class="menu-a" href="index.html">ABOUT</a></li>
+        <li class="menu-li portfolio-menu-li"> <a class="menu-portfolio" href="portfolio.html">PORTFOLIO</a> </li>
+        <li class="menu-li  portfolio-menu-li"><a class="menu-a" href="careers.html">CAREERS</a></li>
+        <li id="contact-modal-btn" class="menu-li menu-none portfolio-menu-li"><a class="menu-a" onclick="modalFunction1()">CONTACT US</a> </li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="header">
+    <div class="container-fluid">
+      <div class="banner-text">
+        <div class="text">
+          <h1 class="text-h1">Tremendously Amazing<br>
+            Web Responsive
+            &<br>
+            Optimized Designs
+          </h1>
+        </div>
+      </div>
+    </div>
+  </header>
+</div>
+
+
+<!-- contact modal button -->
+<section id="modal-visible" class="home-contact-modal-container">
+  <div class="home-contact-modal-container-content">
+
+    <div class="home-modal-content1">
+      <a href="index.html"><img src="img/ratiocinative-logo.png" alt=""></a>
+      <ul class="home-modal-content-list">
+        <p>Mobile:</p>
+        <li>
+          <a href="#">01722970873</a>
+        </li>
+        <p>Email:</p>
+        <li>
+          <a href="mailto:info@ratiocinativesolutions.com" >info@ratiocinativesolutions.com</a>
+        </li>
+        <p>Address:</p>
+        <li>
+          <a href="">A-606, Bestech Business Towers, Sector-66, Mohali</a>
+        </li>
+      </ul>
+    </div>
+    <div class="home-modal-content2">
+      <i id="home-modal-cross" class="fas fa-times fa-2x modal-cross" onclick="modalFunction2()"></i>
+      <h2>We’d love to <br>hear <em>from you!</em></h2>
+      <p>PLEASE FILL OUT THE FORM & WE WILL GET BACK TO YOU.</p>
+      <div class="home-modal-content2-form">
+
+        <div class="modal-input">
+          <label for="username">Name</label> <br>
+          <input type="text" id="username">
+        </div>
+        <div class="modal-input">
+          <label for="company">Company</label> <br>
+          <input type="text" id="company">
+        </div>
+        <div class="modal-input">
+          <label for="email">Email</label> <br>
+          <input type="email" id="email">
+        </div>
+        <div class="modal-input">
+          <label for="">Phone</label> <br>
+          <input type="text" id="phone">
+        </div>
+
+      </div>
+      <div class="home-modal-input-textarea">
+        <label for="textarea">Whats on your mind?</label><br>
+        <textarea id="textarea" name="name" rows="5" cols="80"></textarea>
+      </div>
+
+      <div class="home-modal-submit-btn">
+        <button type="submit" name="button" onclick="takeValue()">Submit</button>
+      </div>
+    </div>
+
+  </div>
+</section>
+<!-- contact button end -->
+
+
+  <section class="slevin">
+    <div class="container-fluid slevin-inner">
+      <div class="slevin-text">
+        <div class="column1">
+          <div class="slevin-logo-wrapper">
+            <img src="img/slevin-logo.png" alt="slevin-logo">
+          </div>
+          <h2>Slevin <br>Advisory <em>Group</em></h2>
+          <p>Slevin Advisory Group Consults with CEO’S and Business Leaders to Help them Achieve Greater Results and Success.</p>
+          <div class="visit-button">
+            <a href="#" class="web-btn">Visit Website</a>
+          </div>
+          <div class="slevin-left-image">
+            <img src="img/slevin-sm.png" alt="slevin-sm">
+          </div>
+        </div>
+        <div class="column2">
+          <div class="slevin-right-image">
+            <img src="img/slevin-bg.png" alt="slevin-bg">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="liz">
+    <div class="container-fluid liz-inner">
+      <div class="slevin-text liz-text">
+        <div class="column1">
+          <div class="slevin-logo-wrapper">
+            <img src="img/liz-logo.png" alt="slevin-logo">
+          </div>
+          <h2>Liz <em>Palmer</em></h2>
+          <p>Liz Palmer offers rare and meaningful insights into the world of wine and spirits. She has evolved to incorporate digital and influencer marketing specifically for the beverage sector.</p>
+          <div class="visit-button liz-visit-button">
+            <a href="#" class="web-btn liz-btn">Visit Website</a>
+          </div>
+          <div class="slevin-left-image">
+            <img src="img/liz-sm.png" alt="slevin-sm">
+          </div>
+        </div>
+        <div class="column2">
+          <div class="slevin-right-image">
+            <img src="img/liz-bg.png" alt="slevin-bg">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="family">
+    <div class="container-fluid family-inner">
+      <div class="slevin-text family-text">
+        <div class="column1">
+          <div class="slevin-logo-wrapper">
+            <img src="img/Bergen-Family-Promise-Logo.png" alt="slevin-logo">
+          </div>
+          <h2>Family Promise <br>of Bergen <em>County</em></h2>
+          <p>Empowering homeless working families to succeed by providing temporary shelter and targeted support.</p>
+          <div class="visit-button liz-visit-button">
+            <a href="#" class="web-btn family-btn">Visit Website</a>
+          </div>
+          <div class="slevin-left-image">
+            <img src="img/bergen-sm.png" alt="slevin-sm">
+          </div>
+        </div>
+        <div class="column2">
+          <div class="slevin-right-image">
+            <img src="img/bergen-bg.png" alt="slevin-bg">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="susan liz">
+    <div class="container-fluid susan-inner">
+      <div class="slevin-text susan-text">
+        <div class="column1">
+          <div class="slevin-logo-wrapper">
+            <img src="img/susan-logo-1.png" alt="slevin-logo">
+          </div>
+          <h2>Susan <br> Balaban <em>Designs</em></h2>
+          <p>Susan has been designing jewelry for almost ten years and studying rocks, minerals and gemstones all her life</p>
+          <div class="visit-button liz-visit-button">
+            <a href="#" class="web-btn liz-btn susan-btn">Visit Website</a>
+          </div>
+          <div class="slevin-left-image">
+            <img src="img/susan-sm.png" alt="slevin-sm">
+          </div>
+        </div>
+        <div class="column2">
+          <div class="slevin-right-image">
+            <img src="img/susan-bg.png" alt="slevin-bg">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="aquavita">
+    <div class="container-fluid aquavita-inner">
+      <div class="slevin-text aquavita-text">
+        <div class="column1">
+          <div class="slevin-logo-wrapper">
+            <img class="aquavita-logo01" src="img/aquavita-logo.png" alt="slevin-logo">
+          </div>
+          <h2>Aquavita</h2>
+          <p>AquaVita is in a consistent development of contemporary/unique styles authentically in Italy to please the sophisticated yet ordinary woman, focusing on luxurious resort apparel.</p>
+          <div class="visit-button liz-visit-button">
+            <a href="#" class="web-btn aquavita-btn">Visit Website</a>
+          </div>
+          <div class="slevin-left-image">
+            <img src="img/old-aqua.png" alt="slevin-sm">
+          </div>
+        </div>
+        <div class="column2">
+          <div class="slevin-right-image">
+            <img src="img/aqua-vita.png" alt="slevin-bg">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="agency liz">
+    <div class="container-fluid agency-inner">
+      <div class="slevin-text agency-text">
+        <div class="column1">
+          <div class="slevin-logo-wrapper">
+            <img src="img/the-agency-insurance-logo.png" alt="slevin-logo">
+          </div>
+          <h2>The agency <br>insurance <em>division</em></h2>
+          <p>Based in Montana with offices located in the cities like Helena, Ennis, Big Sky and Bozeman in the state of Montana. Proudly serving the insurance needs of the poeple of Montana and Idaho.</p>
+          <div class="visit-button liz-visit-button">
+            <a href="#" class="web-btn liz-btn aquavita-btn">Visit Website</a>
+          </div>
+          <div class="slevin-left-image">
+            <img src="img/agency-old.png" alt="slevin-sm">
+          </div>
+        </div>
+        <div class="column2">
+          <div class="slevin-right-image">
+            <img src="img/agency-insurance.png" alt="slevin-bg">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="artinian">
+    <div class="container-fluid artinian-inner">
+      <div class="slevin-text artinian-text">
+        <div class="column1">
+          <div class="slevin-logo-wrapper">
+            <img src="img/artinian-logo.png" alt="slevin-logo">
+          </div>
+          <h2>Artinian <em>Gems</em></h2>
+          <p>For two generations, the people at Artinian Gems have been known for having searched the finest of gemstone materials all over the world. They strive to find the best of the best gemstones.</p>
+          <div class="visit-button liz-visit-button">
+            <a href="#" class="web-btn artinian-btn">Visit Website</a>
+          </div>
+          <div class="slevin-left-image">
+            <img src="img/old-artinian.png" alt="slevin-sm">
+          </div>
+        </div>
+        <div class="column2">
+          <div class="slevin-right-image">
+            <img src="img/artinian-gems.png" alt="slevin-bg">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="border liz">
+    <div class="container-fluid border-inner">
+      <div class="slevin-text border-text">
+        <div class="column1">
+          <div class="slevin-logo-wrapper">
+            <img class="aquavita-logo01" src="img/border-champs-logo.png" alt="slevin-logo">
+          </div>
+          <h2>Borderchamps <em>Auto Importers</em></h2>
+          <p>Borderchamps Auto Importers has the required knowledge and experience to handle various kinds of vehicles. They ensure the whole import process sails through with no hindrance.</p>
+          <div class="visit-button liz-visit-button">
+            <a href="#" class="web-btn liz-btn border-btn">Visit Website</a>
+          </div>
+          <div class="slevin-left-image">
+            <img src="img/border-champs-old.png" alt="slevin-sm">
+          </div>
+        </div>
+        <div class="column2">
+          <div class="slevin-right-image">
+            <img src="img/border-champs.png" alt="slevin-bg">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="jerry">
+    <div class="container-fluid jerry-inner">
+      <div class="slevin-text jerry-text">
+        <div class="column1">
+          <div class="slevin-logo-wrapper">
+            <img src="img/jerry-logo.png" alt="slevin-logo">
+          </div>
+          <h2>Jerry <em>jazz</em></h2>
+          <p>Jerry Jazz Musician’s mission has always been to explore the culture of America with the genre of jazz as the highlight. They publish content mainly for the people interested in Jazz music.</p>
+          <div class="visit-button liz-visit-button">
+            <a href="#" class="web-btn artinian-btn">Visit Website</a>
+          </div>
+          <div class="slevin-left-image">
+            <img src="img/old-jerry.png" alt="slevin-sm">
+          </div>
+        </div>
+        <div class="column2">
+          <div class="slevin-right-image">
+            <img src="img/jerry-jazz.png" alt="slevin-bg">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="tracks liz">
+    <div class="container-fluid tracks-inner">
+      <div class="slevin-text tracks-text">
+        <div class="column1">
+          <div class="slevin-logo-wrapper">
+            <img class="aquavita-logo01" src="img/pro-backing-tracks-logo.png" alt="slevin-logo">
+          </div>
+          <h2>Pro Backing <em>Tracks</em></h2>
+          <p>Pro Backing Tracks is your one stop shop for jazz, blues and smooth jazz backing-tracks and jamming tracks for the saxophone and the guitar and all the ther lead instruments.</p>
+          <div class="visit-button liz-visit-button">
+            <a href="#" class="web-btn liz-btn tracks-btn">Visit Website</a>
+          </div>
+          <div class="slevin-left-image">
+            <img src="img/pro-backing-tracks0old.png" alt="slevin-sm">
+          </div>
+        </div>
+        <div class="column2">
+          <div class="slevin-right-image">
+            <img src="img/pro-backing-tracks.png" alt="slevin-bg">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="west">
+    <div class="container-fluid west-inner">
+      <div class="slevin-text west-text">
+        <div class="column1">
+          <div class="slevin-logo-wrapper">
+            <img class="aquavita-logo01" src="img/west-linn-logo.png" alt="slevin-logo">
+          </div>
+          <h2>West linn <em>Aesthetics</em></h2>
+          <p>The people at West Linn provide the highest quality nourishment in a friendly and personalized way that will make you feel very comfortable in your cosmetic enhancement process.</p>
+          <div class="visit-button liz-visit-button">
+            <a href="#" class="web-btn west-btn">Visit Website</a>
+          </div>
+          <div class="slevin-left-image">
+            <img src="img/west-old.png" alt="slevin-sm">
+          </div>
+        </div>
+        <div class="column2">
+          <div class="slevin-right-image">
+            <img src="img/west-linn-old.png" alt="slevin-bg">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="portfolio-collaborate liz">
+    <div class="container-fluid collaborate-inner">
+      <div class="collaborate-text">
+        <div class="middle-text">
+          <h5>Got a project in Mind?</h5>
+          <h3>Let’s Collaborate, Coffee’s on us!</h3>
+          <p>Do you need your site to be an engaging website? We’ve enabled several customers to boost their business growth on the web. Speak with Kate –<a href="#" class="work-link"> let’s work together.</a></p>
+        </div>
+        <div class="end-button">
+          <a id="getintouch-btn" href="#" class="web-btn liz-btn" onclick="modalFunction1()">Get in Touch</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="home-footer">
+    <div class="home-footer-container">
+      <div class="home-footer-logo">
+        <a href="index.html"> <img src="img/ratiocinative-logo.png" alt="logo"> </a>
+      </div>
+
+      <div class="home-footer-row">
+        <div class="home-footer-col home-address">
+          <h4>Address</h4>
+          <a href="" class="home-none">A-606, Bestech Business<br>
+            <span class="home-towers">Towers, Sector-66, Mohali</span></a>
+        </div>
+        <div class="home-footer-col home-address">
+          <h4>Email</h4>
+          <a href="mailto:info@ratiocinativesolutions.com" class="home-none">info@ratiocinativesolutions.com</a>
+        </div>
+        <div class="home-footer-col">
+          <h4>Phone</h4>
+          <a href="tel:0172 29 70 873" class="home-none">01722970873</a>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <div class="footer-end">
+    <div class="footer-end-container-fluid">
+      <p>Copyright @2021 Ratiocinative Solutions</p>
+    </div>
+  </div>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="js/scripts.js"></script>
+  <script>
+    $(window).scroll(function() {
+      if ($(document).scrollTop() > 50) {
+        $('.nav').addClass('affix');
+        $('.menu-portfolio').addClass('affix-navbar-menu');
+          $('.menu-a').addClass('affix-navbar-menu');
+        console.log("OK");
+      } else {
+        $('.nav').removeClass('affix');
+        $('.menu-portfolio').removeClass('affix-navbar-menu');
+        $('.menu-a').removeClass('affix-navbar-menu');
+      }
+    });
+  </script>
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $('.menu-toggle').click(function() {
+        $('.menu-ul').toggleClass('active')
+      })
+    })
+
+      $(document).ready(function() {
+        $('.menu-cross-toggle').click(function() {
+          $('.menu-ul').toggleClass('active')
+        })
+      })
+
+    function myFunction4() {
+      document.getElementById('portfolio-menu-hamburger').style.display="none";
+      document.getElementById('portfolio-menu-cross').style.display="block";
+      document.getElementById('portfolio-nav').style.backgroundColor="#fd8200";
+    }
+
+    function myFunction5() {
+      document.getElementById('portfolio-menu-hamburger').style.display="block";
+      document.getElementById('portfolio-menu-cross').style.display="none";
+      document.getElementById('portfolio-nav').style.backgroundColor="transparent";
+    }
+
+    function modalFunction1() {
+      document.getElementById('modal-visible').style.display="block";
+    }
+
+    function modalFunction2() {
+      document.getElementById('modal-visible').style.display="none";
+    }
+
+    function takeValue() {
+      var a= document.getElementById("username").value;
+      var b= document.getElementById("company").value;
+      var c= document.getElementById("email").value;
+      var d= document.getElementById("phone").value;
+      var e= document.getElementById("textarea").value;
+      console.log("Your name is" + a + ", Your company name is " + b + ", Your email id is " + c + ", Your phone no. is " + d + ", Your message is " + e);
+    }
+
+  </script>
+</body>
+
+</html>
