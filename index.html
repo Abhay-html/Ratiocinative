@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/0e3e6d16f9.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+  <title>Ratiocinative</title>
+</head>
+
+<body style="max-width: 1920px; margin: 0 auto;">
+  <a id="body-top"></a>
+
+  <div class="home-header" id="modal-toggle">
+    <div class="home-navbar-container">
+      <nav class="home-navbar">
+        <div class="home-navbar-logo">
+          <a href="index.html"><img src="img/ratiocinative-logo.png" alt=""></a>
+        </div>
+
+        <div class="home-navbar-toggle">
+          <i id="home-menu-hamburger" class="fa fa-bars home-nav-toggle" onclick="myFunction()" aria-hidden="true"></i>
+          <i id="home-menu-cross" class="fas fa-times fa-2x home-nav-crosstoggle" onclick="myFunction1()"></i>
+        </div>
+
+        <div id=" home-top-nav" class="home-navbar-menu">
+          <ul class="home-menu">
+            <li class="home-about1 home-menu-list"> <a class="home-about" href="#services">SERVICES</a></li>
+            <li class="home-about1 home-menu-list"> <a class="home-about" href="#about">ABOUT </a></li>
+            <li class="home-portfolio1 home-menu-list"> <a class="home-portfolio" href="portfolio.html">PORTFOLIO</a> </li>
+            <li class="home-portfolio1 home-menu-list"> <a class="home-careers" href="careers.html">CAREERS</a></li>
+            <li id="contact-modal-btn" class="home-menu-list"><a class="home-careers" href="#body-top" onclick="modalFunction1()">CONTACT US</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+
+
+    <div class="banner">
+      <div class="banner-content">
+        <div class="banner-list">
+          <ul>
+            <li>TRANSPARENT</li>
+            <li class="agile">AGILE</li>
+            <li class="flexible">FLEXIBLE</li>
+          </ul>
+        </div>
+        <div class="banner-heading">
+          <h1>Providing Complete Web & Mobile <br>Applications With Scalable Solutions<br id="home-transforming"> and Transforming Businesses.</h1>
+          <p>Ratiocinative Solutions pride on building breakthrough Web and Mobile applications that improve performance for our clients. With the ever changing technlogies providing
+            different challenges and oppurtunities, we believe the most important thing is to be innovative and adaptive.</p>
+        </div>
+        <div class="banner-menu">
+          <ul>
+            <li class="banner-menu-list1">
+              <a>UI/UX WEB DESIGN</a>
+            </li>
+            <li class="mobile banner-menu-list2">
+              <a>MOBILE APPS</a>
+            </li>
+            <li class="mobile banner-menu-list3">
+              <a>WEB DEVELPOMENT</a>
+            </li>
+            <li class="mobile banner-menu-list4">
+              <a>OPTIMIZATION</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <!-- explore section div -->
+  <div id="services" class="explore">
+    <!-- expertise section start -->
+    <div class="expertise">
+
+      <div class="expertise-container">
+        <div class="expertise-container-heading">
+          <h3>Explore Our <br>Expertise <span>Solutions</span></h3>
+        </div>
+        <div class="expertise-content">
+          <p>Our profound expertise in design and technology help us to develop a beautiful experience that transforms the world around us.
+            Our process includes every aspect of design and development. We adapt your ideas, do an in-depth analysis, create customized prototypes, code for all
+            devices using the best scalable technology, and then go through our strict quality assurance.</p>
+        </div>
+      </div>
+
+    </div>
+    <!-- expertise section end -->
+
+    <!-- design section start -->
+    <div class="design">
+      <div class="design-container1">
+        <div class="design-con1">
+          <div class="design-img1">
+            <a href="#"><img src="img/graphic-design.png" alt=""></a>
+          </div>
+          <div class="sub-design1">
+            <h3>Graphic <br> Design</h3>
+            <ul>
+              <li><span>Mobile & Desktop Design</span></li>
+              <li><span>Statergy and Planning</span></li>
+              <li><span>Information Architecture</span></li>
+              <li><span>User Experience (UX)</span></li>
+              <li><span>Prototyping</span></li>
+              <li><span>User Interface Design</span></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="design-con2">
+          <div class="design-img2">
+            <a href="#"><img src="img/mobile-app.png" alt=""></a>
+          </div>
+          <div class="sub-design2">
+            <h3>Web Application <br>Development</h3>
+            <ul>
+              <li><span>Front End Development</span></li>
+              <li><span>Back End Development</span></li>
+              <li><span>Responsive Development</span></li>
+              <li><span>Website Rescue and Optimization</span></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="design-con3">
+          <div class="design-img3">
+            <a href="#"><img src="img/web-app.png" alt=""></a>
+          </div>
+          <div class="sub-design3">
+            <h3>Mobile App <br>Development</h3>
+            <ul>
+              <li><span>IOS Development</span></li>
+              <li><span>Android Development</span></li>
+              <li><span>React Native</span></li>
+              <li><span>Development</span></li>
+              <li><span>Hybrid Development</span></li>
+              <li><span>PWA Development</span></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="design-con4">
+          <div class="design-img4">
+            <a href="#"><img src="img/wordpress-dev.png" alt=""></a>
+          </div>
+          <div class="sub-design4">
+            <h3>Wordpress <br> Development</h3>
+            <ul>
+              <li><span>Custome Theme Development</span></li>
+              <li><span>Plugin Development & Customization</span></li>
+              <li><span>Theme Customization</span></li>
+              <li><span>Wordpress Training</span></li>
+              <li><span>Wordpress Maintainence</span> </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="design-con5">
+          <div class="design-img5">
+            <a href="#"><img src="img/ecommerce.png" alt=""></a>
+          </div>
+          <div class="sub-design5">
+            <h3>Ecommerce <br> Solutions</h3>
+            <ul>
+              <li><span>Shopify[Hosted Ecommerce Solution]</span></li>
+              <li><span>WooCommerce [Advance Ecommerce Solution]</span></li>
+              <li><span>PHP [Custom Ecommerce Solution]</span> </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="design-con6">
+          <div class="design-img6">
+            <a href="#"><img src="img/hosting.png" alt=""></a>
+          </div>
+          <div class="sub-design6">
+            <h3>Hosting & <br>Performance <br>Optimization</h3>
+            <ul>
+              <li><span>Web Hosting, Domain Names & SSL</span></li>
+              <li><span>Optimize Images</span></li>
+              <li><span>CDN Setup</span></li>
+              <li><span>Optimize performance</span></li>
+              <li><span>Security Audits</span></li>
+              <li><span>Ongoing Supports</span></li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <!-- design section end -->
+  </div>
+  <!-- explore section div end -->
+
+
+  <div id="about" class="brand">
+
+    <div class="brand-img">
+      <img src="img/where.jpg" alt="">
+    </div>
+
+    <div class="brand-container">
+      <div class="brand-content">
+        <p class="brand-heading">WHERE IT ALL STARTED!</p>
+        <h3>An Introduction to the <br> Brand that <span>Creates,</span> Period </h3>
+        <p class="brand-middle">We help certain businesses reach thier potential through research, unique ideas and planning. We have believed in the mantra that your success is our
+          success and have begun the king of agency we always wanted to that is fully aligned with you and most importantly accelerate your business and accentuates your cause.</p>
+        <p class="brand-bottom">At Ratiocinative Solutions we know how important a strong marketing presence is to a company, and we are devoted to helping you make the right impression through the use of
+          effective design and development process. Our small team using a handcrafted approach to Design and Development. Our sites are fast, engaging, user-friendly and innovative
+          and also easy to change.</p>
+      </div>
+    </div>
+
+  </div>
+
+
+
+  <div class="collaborate">
+    <div class="collaborate-container">
+      <div class="collaborate-img">
+        <a href="#"><img class="collaborate-image1" src="img/outline_03.jpg" alt=""></a>
+      </div>
+
+      <div class="collaborate-sidebar">
+        <p class="hired">LOOKING FOR A JOB? WE'RE HIRING!</p>
+        <h3>Let's <span class="orange">Collaborate,</span><br> Coffee's on Us!</h3>
+        <p class="para">Do you need your site to be an engaging website?<br> We have enabled several customers to boost their bussiness
+          growth on the web. Let's work together! </p>
+        <div class="collaborate-sidebar-button1">
+          <a class="collaborate-sidebar-btn" href="careers.html">SEE WHAT BEST FITS YOUR PROFILE &nbsp<i class="fas fa-arrow-right"></i></a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+
+  <div class="history">
+    <div class="history-content">
+      <h2>“In the long history of humankind those who learned to collaborate and improvise most effectively have prevailed.”</h2>
+      <p>-CHARLES DARWIN</p>
+    </div>
+  </div>
+
+
+
+  <footer class="home-footer">
+    <div class="home-footer-container">
+      <div class="home-footer-logo">
+        <a href="index.html"> <img src="img/ratiocinative-logo.png" alt="logo"> </a>
+      </div>
+
+      <div class="home-footer-row">
+        <div class="home-footer-col home-address">
+          <h4>Address</h4>
+          <a href="index.html" class="home-none">A-606, Bestech <span id="footer-business">Business</span><br>
+            <span class="home-towers">Towers, <span id="sector66">Sector-66, <span id="mohali">Mohali</span></span></span></a>
+        </div>
+        <div class="home-footer-col home-email">
+          <h4>Email</h4>
+          <a href="mailto:info@ratiocinativesolutions.com" class="home-none">info@ratiocinativesolutions.com</a>
+        </div>
+        <div class="home-footer-col home-phone">
+          <h4>Phone</h4>
+          <a href="tel:01722970873" class="home-none">01722970873</a>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <div class="footer-end">
+    <div class="footer-end-container-fluid">
+      <p>Copyright @2021 Ratiocinative Solutions</p>
+    </div>
+  </div>
+
+  <!-- contact modal button -->
+  <section id="modal-visible" class="home-contact-modal-container">
+    <div class="home-contact-modal-container-content">
+
+      <div class="home-modal-content1">
+        <a href="index.html"><img src="img/ratiocinative-logo.png" alt=""></a>
+        <ul class="home-modal-content-list">
+          <p>Mobile:</p>
+          <li>
+            <a href="tel:01722970873">01722970873</a>
+          </li>
+          <p>Email:</p>
+          <li>
+            <a href="mailto:info@ratiocinativesolutions.com">info@<br id="ratio-break" style="display:none;">ratiocinative<br id="solution-break" style="display:none;">solutions<br style="display:none;">.com</a>
+          </li>
+          <p>Address:</p>
+          <li>
+            <a href="index.html">A-606, Bestech Business Towers, Sector-66, Mohali</a>
+          </li>
+        </ul>
+      </div>
+      <div class="home-modal-content2">
+        <i id="home-modal-cross" class="fas fa-times modal-cross" onclick="modalFunction2()" style="font-size:21px;"></i>
+        <h2>We’d love to <br>hear <em>from you!</em></h2>
+        <p>PLEASE FILL OUT THE FORM & WE WILL GET  <br id="getback" style="display:none;"> BACK TO YOU.</p>
+        <div class="home-modal-content2-form">
+
+          <div class="modal-input">
+            <label for="username">Name</label> <br>
+            <input type="text" id="username">
+          </div>
+          <div class="modal-input">
+            <label for="company">Company</label> <br>
+            <input type="text" id="company">
+          </div>
+          <div class="modal-input">
+            <label for="email">Email</label> <br>
+            <input type="email" id="email">
+          </div>
+          <div class="modal-input">
+            <label for="">Phone</label> <br>
+            <input type="text" id="phone">
+          </div>
+
+        </div>
+        <div class="home-modal-input-textarea">
+          <label for="textarea">Whats on your mind?</label><br>
+          <textarea id="textarea" name="name" rows="5" cols="80"></textarea>
+        </div>
+
+        <div class="home-modal-submit-btn">
+          <button type="submit" name="button" onclick="takeValue()">Submit</button>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <!-- contact button end -->
+
+  <script type="text/javascript">
+    $(window).scroll(function() {
+      if ($(window).scrollTop() > 50) {
+        $('.home-navbar').addClass('home-special-class');
+      } else {
+        $('.home-navbar').removeClass('home-special-class');
+      }
+    });
+
+  </script>
+
+  <script>
+    $(document).ready(function() {
+      $('.home-nav-toggle').click(function() {
+        $('.home-navbar-menu').toggleClass('home-nav-menu-toggle');
+        $('.home-menu').toggleClass('nav-menu-toggle');
+        $('.home-menu-list').toggleClass('home-menu-li-toggle');
+        $('.home-navbar').toggleClass('nav-navbar-toggle');
+      });
+    });
+
+    $(document).ready(function() {
+      $('.home-nav-crosstoggle').click(function() {
+        $('.home-navbar-menu').toggleClass('home-nav-menu-toggle');
+        $('.home-menu').toggleClass('nav-menu-toggle');
+        $('.home-menu-list').toggleClass('home-menu-li-toggle');
+        $('.home-navbar').toggleClass('nav-navbar-toggle');
+      });
+
+      $(window).click(()=>{
+          if(!$(event.target).parents('.home-contact-modal-container-content').length > 0 && $('#modal-visible').hasClass('modal-opened')){
+            $('#modal-visible').css({'display':'none'});
+            $('#modal-visible').removeClass('model-opened');
+            $('body').css({'overflow':'auto'});
+          }
+        });
+
+    });
+
+    function myFunction() {
+      document.getElementById('home-menu-hamburger').style.display = "none";
+      document.getElementById('home-menu-cross').style.display = "block";
+    }
+
+    function myFunction1() {
+      document.getElementById('home-menu-cross').style.display = "none";
+      document.getElementById('home-menu-hamburger').style.display = "block";
+    }
+
+    function modalFunction1() {
+      event.stopPropagation();
+      document.getElementById('modal-visible').style.display = "block";
+      document.getElementById('modal-visible').style.overflow = "auto";
+      document.body.style.overflow = 'hidden';
+      document.getElementById('modal-visible').classList.add('modal-opened');
+    }
+
+    function modalFunction2() {
+      document.getElementById('modal-visible').style.display = "none";
+      document.body.style.overflow = 'auto';
+      document.getElementById('modal-visible').classList.remove('modal-opened');
+    }
+
+    function takeValue() {
+      var a = document.getElementById("username").value;
+      var b = document.getElementById("company").value;
+      var c = document.getElementById("email").value;
+      var d = document.getElementById("phone").value;
+      var e = document.getElementById("textarea").value;
+      console.log("Your name is" + a + ", Your company name is " + b + ", Your email id is " + c + ", Your phone no. is " + d + ", Your message is " + e);
+    }
+
+
+  </script>
+
+
+</body>
+
+</html>
